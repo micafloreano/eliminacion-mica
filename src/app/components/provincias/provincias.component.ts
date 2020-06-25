@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {Empresa} from '../../models/provincia';
-import {EmpresaService} from '../../services/provincias.service'
+import {ProvinciasService} from '../../services/provincias.service'
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 @Component({
   selector: 'app-provincias',
@@ -15,7 +15,7 @@ export class EmpresasComponent implements OnInit {
   EstadoForm: string;
   EmpresaAlta:  Empresa;
 
-  constructor(private empresasService: EmpresaService, private formBuilder: FormBuilder) { 
+  constructor(private empresasService: ProvinciasService, private formBuilder: FormBuilder) { 
   }
 
   ngOnInit() {
