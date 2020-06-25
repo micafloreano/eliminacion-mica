@@ -11,7 +11,7 @@ import { Empresa } from "../models/provincia";
   providedIn: 'root'
 })
 
-export class EmpresaService {
+export class ProvinciasService {
   resourceUrl: string;
 
 
