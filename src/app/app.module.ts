@@ -40,7 +40,7 @@ import { ProvinciasComponent } from "./components/provincias/provincias.componen
       { path: 'inicio', component: InicioComponent },
       { path: 'articulos', component: ArticulosComponent },
       { path: 'articulosfamilias', component: ArticulosFamiliasComponent },
-      { path: 'provincias', component: ProvinciasComponent }
+      { path: 'provincia', component: ProvinciasComponent }
     ]),
     NgbPaginationModule,
     NgbModalModule,
